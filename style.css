@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+h1{
+  color: green;
+}
+
+section{
+  height: 50vh;
+  width: 50vw;
+  /* border: 2px solid lightgray; */
+  border-radius: 14px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.crt{
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  width: 100%;
+  gap: 20px;
+}
+#mybutton{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+#mybutton2{
+  background-color: rgb(194, 194, 58);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+#mybutton,#mybutton2{
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+p{
+  font-size: 1.3vmax;
+  margin-bottom: 3rem;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 2px 15px;
+  border: 1px solid lightgray;
+}
+.rgbs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-left: 4px solid black;
+  background-color: #ffcef3;
+  
+  border-radius: 6px;
+  height:20%;
+  width: 60%;
+  padding: 0 30px;
+}
+
+@media(max-width:467px){
+  section{
+    height: 60vh;
+    width: 90%;
+  }
+  #mybutton,#mybutton2{
+    width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+
+  }
+  .rgbs{
+    width: 95%;
+  }
+  p{
+    font-size: 1.3vmax;
+    margin-bottom: 3rem;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    width: 80vw;
+    border: 1px solid lightgray;
+  }
+  
+}
